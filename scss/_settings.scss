@@ -1013,6 +1013,31 @@ $shiny-edge-active-color: rgba($black, .2);
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+$include-html-panel-classes: $include-html-classes;
+
+// We use these to control the background and border styles
+$panel-bg: #ffffff;
+$panel-border-style: solid;
+$panel-border-size: 2px;
+
+// We use this % to control how much we darken things on hover
+$panel-function-factor: -11%;
+$panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
+
+// We use these to set default inner padding and bottom margin
+$panel-margin-bottom: rem-calc(10);
+$panel-padding: rem-calc(5);
+
+// We use these to set default font colors
+$panel-font-color: $oil;
+$panel-font-color-alt: $white;
+
+$panel-header-adjust: true;
+$callout-panel-link-color: $primary-color;
+
+
+
+
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
