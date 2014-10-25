@@ -36,8 +36,8 @@ html, body {
   font-size: 100%; }
 
 body {
-  background: #fff;
-  color: #222;
+  background: #FFFFFF;
+  color: #222222;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1202,26 +1202,26 @@ select {
 
 .breadcrumbs {
   display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
+  padding: 0.625rem 1.875rem 0.625rem;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   background-color: #f4f4f4;
   border-color: #dcdcdc;
   border-radius: 3px; }
   .breadcrumbs > * {
     margin: 0;
     float: left;
-    font-size: 0.6875rem;
-    line-height: 0.6875rem;
-    text-transform: uppercase;
-    color: #008CBA; }
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-transform: lowercase;
+    color: #000000; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #008CBA; }
+      color: #000000; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1239,7 +1239,7 @@ select {
         color: #999999;
         cursor: default; }
     .breadcrumbs > *:before {
-      content: "/";
+      content: "";
       color: #AAAAAA;
       margin: 0 0.75rem;
       position: relative;
@@ -2603,7 +2603,7 @@ label.error {
   width: 100%;
   font-size: 0;
   display: inline-block;
-  background: #cccccc; }
+  background: #333333; }
   .icon-bar > * {
     text-align: center;
     font-size: 1rem;
@@ -2666,11 +2666,11 @@ label.error {
       width: 1.875rem;
       height: 1.875rem; }
   .icon-bar > *:hover {
-    background: #5C374B; }
+    background: #008CBA; }
   .icon-bar > * label {
-    color: #ffffff; }
+    color: #FFFFFF; }
   .icon-bar > * i {
-    color: #ffffff; }
+    color: #FFFFFF; }
 
 .icon-bar.two-up .item {
   width: 50%; }
@@ -4759,7 +4759,7 @@ dl dd {
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #222222;
   cursor: help; }
 
 abbr {
