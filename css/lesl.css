@@ -5,8 +5,6 @@
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  margin-top: 50px;
-
 }
 
 .flexcolumn {
@@ -27,7 +25,7 @@
   justify-content: center;
 }
 
-#lesl-top {
+/*#lesl-top {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -35,7 +33,7 @@
 
 #lesl-nav {
   margin-right: 100px;
-}
+}*/
 
 /*.fullWidth {
    width: 100%;
