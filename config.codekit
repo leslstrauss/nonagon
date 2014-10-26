@@ -3596,6 +3596,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/2009-10-03 16.09.49.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 374107,
+		"inputAbbreviatedPath": "\/img\/2009-10-03 16.09.49.jpg",
+		"outputAbbreviatedPath": "\/img\/2009-10-03 16.09.49.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cassettes-1920-1080.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86686,
+		"inputAbbreviatedPath": "\/img\/cassettes-1920-1080.jpg",
+		"outputAbbreviatedPath": "\/img\/cassettes-1920-1080.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fence-yes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 614718,
+		"inputAbbreviatedPath": "\/img\/fence-yes.jpg",
+		"outputAbbreviatedPath": "\/img\/fence-yes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rainbow-2560-1600 .jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208405,
+		"inputAbbreviatedPath": "\/img\/rainbow-2560-1600 .jpg",
+		"outputAbbreviatedPath": "\/img\/rainbow-2560-1600 .jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/triangle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92456,
+		"inputAbbreviatedPath": "\/img\/triangle.png",
+		"outputAbbreviatedPath": "\/img\/triangle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

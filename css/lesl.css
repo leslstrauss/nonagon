@@ -25,15 +25,25 @@
   justify-content: center;
 }
 
-/*#lesl-top {
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+body {
+  background: #626973 !important;
+  color: #222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto; }
+
+#lesl-top {
+  /*padding-left: 20px;*/
 }
 
 #lesl-nav {
   margin-right: 100px;
-}*/
+}
 
 /*.fullWidth {
    width: 100%;
