@@ -1,5 +1,13 @@
+
 /*On the flex container*/
 .flexrow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.flexcolumn {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -9,14 +17,18 @@
 .flexcenter {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row /* works with row or column */
+  -webkit-flex-direction: row
   flex-direction: row;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  margin: 20px;
 }
+
+.lesl-header {
+  margin-top: 15px;
+}
+
 /*.fullWidth {
    width: 100%;
    margin-left: auto;
