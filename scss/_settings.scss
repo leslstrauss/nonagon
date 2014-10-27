@@ -306,6 +306,12 @@ $shiny-edge-active-color: 0;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
+$hr-border-width: 1px;
+$hr-border-style: solid;
+$hr-border-color: #626973;
+$hr-margin: rem-calc(20);
+
+// // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
@@ -1046,13 +1052,18 @@ $shiny-edge-active-color: 0;
 
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+$include-html-panel-classes: $include-html-classes;
 // $include-html-panel-classes: $include-html-classes;
-
+//
 // We use these to control the background and border styles
 // $panel-bg: scale-color($white, $lightness: -5%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
-
+// We use these to control the background and border styles
+$panel-bg: scale-color($white, $lightness: -5%);
+$panel-border-style: solid;
+$panel-border-size: 3px;
+//
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
 // $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
@@ -1462,7 +1473,8 @@ $include-html-top-bar-classes: $include-html-classes;
 // Background color for the top bar
 // $topbar-bg-color: $oil;
 // $topbar-bg: $topbar-bg-color;
-$topbar-bg-color: #626973;
+$topbar-bg-color: #DEE0E3;
+// #626973;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -1487,11 +1499,10 @@ $topbar-margin-bottom: 10px;
 // $topbar-link-color: $white;
 // $topbar-link-color-hover: $white;
 // $topbar-link-color-active: $white
-$topbar-link-color-active: #ffffff;
+$topbar-link-color-active: #000000;
 // $topbar-link-color-active-hover: $white;
 $topbar-link-color-active-hover: #000000;
 // $topbar-link-weight: $font-weight-normal;
-$topbar-link-weight: bold;
 // $topbar-link-font-size: rem-calc(13);
 $topbar-link-font-size: rem-calc(15);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
@@ -1499,7 +1510,8 @@ $topbar-link-font-size: rem-calc(15);
 // $topbar-link-bg-color-hover: $charcoal;
 // $topbar-link-bg-hover: #272727;
 // $topbar-link-bg-active: $primary-color;
-$topbar-link-bg-active: #626973;
+$topbar-link-bg-active: #DEE0E3;
+// #626973;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 $topbar-link-bg-active-hover: scale-color(#C6D0D9, $lightness: -5%);
 // $topbar-link-font-family: $body-font-family;
@@ -1523,7 +1535,7 @@ $topbar-link-padding: $topbar-height / 2;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
+$topbar-menu-icon-color: #000000;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 
